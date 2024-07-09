@@ -1,0 +1,12 @@
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\bin\Debug\net8.0\ProjetoTarefasDomain.deps.json
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\bin\Debug\net8.0\ProjetoTarefasDomain.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\bin\Debug\net8.0\ProjetoTarefasDomain.pdb
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.AssemblyInfoInputs.cache
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.AssemblyInfo.cs
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.csproj.CoreCompileInputs.cache
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\refint\ProjetoTarefasDomain.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.pdb
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ref\ProjetoTarefasDomain.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.csproj.AssemblyReference.cache

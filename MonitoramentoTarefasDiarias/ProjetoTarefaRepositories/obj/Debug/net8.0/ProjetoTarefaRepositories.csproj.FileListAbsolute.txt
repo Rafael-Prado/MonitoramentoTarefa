@@ -1,0 +1,15 @@
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\bin\Debug\net8.0\ProjetoTarefaRepositories.deps.json
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\bin\Debug\net8.0\ProjetoTarefaRepositories.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\bin\Debug\net8.0\ProjetoTarefaRepositories.pdb
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\bin\Debug\net8.0\ProjetoTarefasDomain.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\bin\Debug\net8.0\ProjetoTarefasDomain.pdb
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoTarefaRepositories.csproj.AssemblyReference.cache
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoTarefaRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoTarefaRepositories.AssemblyInfoInputs.cache
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoTarefaRepositories.AssemblyInfo.cs
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoTarefaRepositories.csproj.CoreCompileInputs.cache
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoT.86115F1C.Up2Date
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoTarefaRepositories.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\refint\ProjetoTarefaRepositories.dll
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ProjetoTarefaRepositories.pdb
+C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefaRepositories\obj\Debug\net8.0\ref\ProjetoTarefaRepositories.dll

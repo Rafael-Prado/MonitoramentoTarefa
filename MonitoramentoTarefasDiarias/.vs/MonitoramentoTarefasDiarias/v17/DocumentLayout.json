@@ -1,0 +1,388 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80575462-64A3-4244-836C-50DF9D0EF35B}|ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefarepositories\\infra\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80575462-64A3-4244-836C-50DF9D0EF35B}|ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj|solutionrelative:projetotarefarepositories\\infra\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\entity\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\entity\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A31460-88A4-49AD-8294-EDA59EF320DF}|MonitoramentoTarefas\\MonitoramentoTarefas.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\monitoramentotarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A31460-88A4-49AD-8294-EDA59EF320DF}|MonitoramentoTarefas\\MonitoramentoTarefas.csproj|solutionrelative:monitoramentotarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\entity\\projeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\entity\\projeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\entity\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\entity\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A31460-88A4-49AD-8294-EDA59EF320DF}|MonitoramentoTarefas\\MonitoramentoTarefas.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\monitoramentotarefas\\controllers\\projetocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A31460-88A4-49AD-8294-EDA59EF320DF}|MonitoramentoTarefas\\MonitoramentoTarefas.csproj|solutionrelative:monitoramentotarefas\\controllers\\projetocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80575462-64A3-4244-836C-50DF9D0EF35B}|ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefarepositories\\repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80575462-64A3-4244-836C-50DF9D0EF35B}|ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj|solutionrelative:projetotarefarepositories\\repository\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\interfaces\\services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\interfaces\\services\\tarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\interfaces\\services\\projetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\interfaces\\services\\projetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\interfaces\\services\\interfaces\\itarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\interfaces\\services\\interfaces\\itarefaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\interfaces\\repository\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\interfaces\\repository\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80575462-64A3-4244-836C-50DF9D0EF35B}|ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefarepositories\\repository\\projetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80575462-64A3-4244-836C-50DF9D0EF35B}|ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj|solutionrelative:projetotarefarepositories\\repository\\projetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\interfaces\\repository\\iprojetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\interfaces\\repository\\iprojetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A31460-88A4-49AD-8294-EDA59EF320DF}|MonitoramentoTarefas\\MonitoramentoTarefas.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\monitoramentotarefas\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A31460-88A4-49AD-8294-EDA59EF320DF}|MonitoramentoTarefas\\MonitoramentoTarefas.csproj|solutionrelative:monitoramentotarefas\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE892A9-671D-4ED6-BCD9-0201720B8660}|MonitoramentoTest\\MonitoramentoTest.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\monitoramentotest\\tarefaunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE892A9-671D-4ED6-BCD9-0201720B8660}|MonitoramentoTest\\MonitoramentoTest.csproj|solutionrelative:monitoramentotest\\tarefaunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\validator\\tarefabusinessvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\validator\\tarefabusinessvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\validator\\tarefavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\validator\\tarefavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE892A9-671D-4ED6-BCD9-0201720B8660}|MonitoramentoTest\\MonitoramentoTest.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\monitoramentotest\\entityfact\\tarefafact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE892A9-671D-4ED6-BCD9-0201720B8660}|MonitoramentoTest\\MonitoramentoTest.csproj|solutionrelative:monitoramentotest\\entityfact\\tarefafact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\validator\\tarefamessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\validator\\tarefamessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\enuns\\prioridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\enuns\\prioridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|c:\\users\\rcprado\\source\\repos\\monitoramentotarefasdiarias\\projetotarefasdomain\\enuns\\tipoprojeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A195773E-6048-483D-8F2B-C2C1EDC75806}|ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj|solutionrelative:projetotarefasdomain\\enuns\\tipoprojeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rcprado\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Entity\\Comentario.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Entity\\Comentario.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Entity\\Comentario.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Entity\\Comentario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T01:32:23.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjetoController.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\Controllers\\ProjetoController.cs",
+              "RelativeDocumentMoniker": "MonitoramentoTarefas\\Controllers\\ProjetoController.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\Controllers\\ProjetoController.cs",
+              "RelativeToolTip": "MonitoramentoTarefas\\Controllers\\ProjetoController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:37:33.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Entity\\Tarefa.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Entity\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Entity\\Tarefa.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Entity\\Tarefa.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:05:54.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\Infra\\DataContext.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefaRepositories\\Infra\\DataContext.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\Infra\\DataContext.cs",
+              "RelativeToolTip": "ProjetoTarefaRepositories\\Infra\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:49:34.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\Program.cs",
+              "RelativeDocumentMoniker": "MonitoramentoTarefas\\Program.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\Program.cs",
+              "RelativeToolTip": "MonitoramentoTarefas\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T17:11:22.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TarefaService.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Services\\TarefaService.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Interfaces\\Services\\TarefaService.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Services\\TarefaService.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Interfaces\\Services\\TarefaService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwBMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T14:13:42.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\Repository\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefaRepositories\\Repository\\TarefaRepository.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\Repository\\TarefaRepository.cs",
+              "RelativeToolTip": "ProjetoTarefaRepositories\\Repository\\TarefaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:43:43.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITarefaService.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Services\\Interfaces\\ITarefaService.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Interfaces\\Services\\Interfaces\\ITarefaService.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Services\\Interfaces\\ITarefaService.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Interfaces\\Services\\Interfaces\\ITarefaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:48:27.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projeto.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Entity\\Projeto.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Entity\\Projeto.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Entity\\Projeto.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Entity\\Projeto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T01:23:35.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjetoService.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Services\\ProjetoService.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Interfaces\\Services\\ProjetoService.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Services\\ProjetoService.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Interfaces\\Services\\ProjetoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:09:23.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProjetoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Repository\\IProjetoRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Interfaces\\Repository\\IProjetoRepository.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Repository\\IProjetoRepository.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Interfaces\\Repository\\IProjetoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:43:07.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjetoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\Repository\\ProjetoRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefaRepositories\\Repository\\ProjetoRepository.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\Repository\\ProjetoRepository.cs",
+              "RelativeToolTip": "ProjetoTarefaRepositories\\Repository\\ProjetoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:42:50.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITarefaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Repository\\ITarefaRepository.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Interfaces\\Repository\\ITarefaRepository.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Interfaces\\Repository\\ITarefaRepository.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Interfaces\\Repository\\ITarefaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T14:15:05.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TarefaBusinessValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Validator\\TarefaBusinessValidator.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Validator\\TarefaBusinessValidator.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Validator\\TarefaBusinessValidator.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Validator\\TarefaBusinessValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:26:41.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "MonitoramentoTarefas\\Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "MonitoramentoTarefas\\Controllers\\TarefaController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T14:49:15.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TarefaFact.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTest\\EntityFact\\TarefaFact.cs",
+              "RelativeDocumentMoniker": "MonitoramentoTest\\EntityFact\\TarefaFact.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTest\\EntityFact\\TarefaFact.cs",
+              "RelativeToolTip": "MonitoramentoTest\\EntityFact\\TarefaFact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:12:59.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TarefaUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTest\\TarefaUnitTest.cs",
+              "RelativeDocumentMoniker": "MonitoramentoTest\\TarefaUnitTest.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTest\\TarefaUnitTest.cs",
+              "RelativeToolTip": "MonitoramentoTest\\TarefaUnitTest.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:18:21.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TarefaValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Validator\\TarefaValidator.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Validator\\TarefaValidator.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Validator\\TarefaValidator.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Validator\\TarefaValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T16:30:07.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TarefaMessages.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Validator\\TarefaMessages.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Validator\\TarefaMessages.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Validator\\TarefaMessages.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Validator\\TarefaMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T14:09:10.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Prioridade.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Enuns\\Prioridade.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Enuns\\Prioridade.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Enuns\\Prioridade.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Enuns\\Prioridade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:58:49.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TipoProjeto.cs",
+              "DocumentMoniker": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Enuns\\TipoProjeto.cs",
+              "RelativeDocumentMoniker": "ProjetoTarefasDomain\\Enuns\\TipoProjeto.cs",
+              "ToolTip": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\Enuns\\TipoProjeto.cs",
+              "RelativeToolTip": "ProjetoTarefasDomain\\Enuns\\TipoProjeto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:53:51.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\rcprado\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\rcprado\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAAwNYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-07-05T16:27:29.292Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
