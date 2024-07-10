@@ -5,16 +5,15 @@ namespace ProjetoTarefasDomain.Entity
 {
     public  class Tarefa
     {
-        public Tarefa(int id, string titulo, string descricao, DateTime dataVencimento, Prioridade prioridade, int projetoId, Status status, IEnumerable<Comentario> comentarios)
+        public Tarefa(string titulo, string descricao, DateTime dataVencimento, Prioridade prioridade, int projetoId, Status status)
         {
-            Id = id;
+            Id = 0;
             Titulo = titulo;
             Descricao = descricao;
             DataVencimento = dataVencimento;
             Prioridade = prioridade;
             ProjetoId = projetoId;
             Status = status;
-            Comentarios = comentarios;
         }
 
         [Key]
@@ -28,7 +27,8 @@ namespace ProjetoTarefasDomain.Entity
         public virtual int TotalTarefasProjeto { get; set; }
 
         public virtual IEnumerable<Comentario> Comentarios { get; set; }
+        public virtual Projeto Projeto { get; set; }
 
-        
+
     }
 }

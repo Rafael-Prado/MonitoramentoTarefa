@@ -1,5 +1,7 @@
 ﻿
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using MonitoramentoTarefas.Model;
 using ProjetoTarefasDomain.Entity;
 using ProjetoTarefasDomain.Interfaces.Services.Interfaces;
 using ProjetoTarefasDomain.Validator;
@@ -13,12 +15,15 @@ namespace MonitoramentoTarefas.Controllers
 
         private readonly ILogger<ProjetoController> _logger;
         private readonly IProjetoService _projetoService;
+        private readonly IMapper _mapper;
         public ProjetoValidator Validations { get; }
 
-        public ProjetoController(ILogger<ProjetoController> logger, IProjetoService projetoService)
+        public ProjetoController(ILogger<ProjetoController> logger, IProjetoService projetoService, IMapper mapper)
         {
             _logger = logger;
             _projetoService = projetoService;
+            _mapper = mapper;
+            Validations = new ProjetoValidator();
         }
 
         [HttpGet(Name = "GetProjetos")]
@@ -27,14 +32,15 @@ namespace MonitoramentoTarefas.Controllers
             return _projetoService.GetListaProjeto(idUsuario);
         }
         [HttpPost(Name = "Projeto")]
-        public async Task<IActionResult> SalvarProjeto([FromBody]  Projeto projeto)
+        public async Task<IActionResult> SalvarProjeto([FromBody] ProjetoModelView projeto)
         {
-            var validationResult = await Validations.ValidateAsync(projeto);
+            var projetoMap = _mapper.Map<Projeto>(projeto);
+            var validationResult = await Validations.ValidateAsync(projetoMap);
             if (!validationResult.IsValid)
             {
                 return BadRequest(validationResult.Errors.Select(a => a.ErrorMessage).ToList());
             }
-            var result = await _projetoService.SalvarProjeto(projeto);
+            var result = await _projetoService.SalvarProjeto(projetoMap);
            
             return Ok(projeto);
             

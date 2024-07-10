@@ -1,5 +1,7 @@
-﻿using FluentValidation;
+﻿using AutoMapper;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
+using MonitoramentoTarefas.Model;
 using ProjetoTarefasDomain.Entity;
 using ProjetoTarefasDomain.Interfaces.Services;
 using ProjetoTarefasDomain.Interfaces.Services.Interfaces;
@@ -14,11 +16,13 @@ namespace MonitoramentoTarefas.Controllers
 
         private readonly ILogger<ProjetoController> _logger;
         private readonly ITarefaService _service;
-        public TarefaValidator Validations { get; }
-        public TarefaController(ILogger<ProjetoController> logger, ITarefaService service)
+        private readonly IMapper _mapper;
+        public TarefaValidator Validations { get; } = new TarefaValidator();
+        public TarefaController(ILogger<ProjetoController> logger, ITarefaService service,IMapper mapper)
         {
             _logger = logger;
             _service = service;
+            _mapper = mapper;
         }
 
         [HttpGet(Name = "GetTarefas")]
@@ -28,14 +32,15 @@ namespace MonitoramentoTarefas.Controllers
         }
 
         [HttpPost(Name = "Tarefa")]
-        public async Task<IActionResult> SalvarProjeto([FromBody] Tarefa tarefa)
+        public async Task<IActionResult> SalvarProjeto([FromBody] TarefaViewModel tarefa)
         {
-            var validationResult = await Validations.ValidateAsync(tarefa);
+
+            var validationResult = await Validations.ValidateAsync(_mapper.Map<Tarefa>(tarefa));
             if (!validationResult.IsValid)
             {
                 return BadRequest(validationResult.Errors.Select(a => a.ErrorMessage).ToList());
             }
-            var result = await _service.SalvarTarefa(tarefa);
+            var result = await _service.SalvarTarefa(_mapper.Map<Tarefa>(tarefa));
 
             if (!result.IsValid)
                 return BadRequest(result.Errors.Select(a => a.ErrorMessage).ToList());
@@ -46,9 +51,9 @@ namespace MonitoramentoTarefas.Controllers
 
 
         [HttpPut("Editar")]
-        public async Task<ActionResult> ExcluirTarefa([FromBody] Tarefa tarefa)
+        public async Task<ActionResult> EditarTarefa([FromBody] TarefaViewModel tarefa)
         {
-            var result = await _service.EditarTarefa(tarefa);
+            var result = await _service.EditarTarefa(_mapper.Map<Tarefa>(tarefa));
             if (!result.IsValid)
             {
                 return BadRequest(result.Errors.Select(a => a.ErrorMessage).ToList());
@@ -64,7 +69,7 @@ namespace MonitoramentoTarefas.Controllers
             {
                 return BadRequest(result.Errors.Select(a => a.ErrorMessage).ToList());
             }
-            return Ok("Excluido com sucesso.");
+            return Ok("Comentario Adicionado com sucesso.");
         }
 
         [HttpDelete("{idTarefa}")]

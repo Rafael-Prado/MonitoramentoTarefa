@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MonitoramentoTarefas.AutoMapper;
 using ProjetoTarefaRepositories.Infra;
 using ProjetoTarefaRepositories.Repository;
 using ProjetoTarefasDomain.Interfaces.Repository;
@@ -9,9 +10,10 @@ using ProjetoTarefasDomain.Validator;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<DataContext>((s,o) => o.UseInMemoryDatabase("Monitoramento")) ;
-builder.Services.AddScoped<TarefaValidator>();
-builder.Services.AddScoped<ProjetoValidator>();
+builder.Services.AddDbContext<DataContext>((s,o) => o.UseSqlServer(@"Server=localhost;Database=Monitoramento;Trusted_Connection=True;MultipleActiveResultSets=true")) ;
+builder.Services.AddScoped<TarefaValidator, TarefaValidator>();
+builder.Services.AddScoped<ProjetoValidator, ProjetoValidator>();
+builder.Services.AddAutoMapper(typeof(ConfigurationMapping));
 
 builder.Services.AddTransient<IProjetoService, ProjetoService>();
 builder.Services.AddTransient<ITarefaService, TarefaService>();

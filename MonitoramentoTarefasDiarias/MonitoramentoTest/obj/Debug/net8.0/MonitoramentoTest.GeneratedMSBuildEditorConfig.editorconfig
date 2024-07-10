@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MonitoramentoTest
-build_property.ProjectDir = C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\MonitoramentoTest\
+build_property.ProjectDir = C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\MonitoramentoTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

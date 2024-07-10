@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj": {}
+    "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj": {
+    "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj",
         "projectName": "MonitoramentoTarefas",
-        "projectPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj",
-        "packagesPath": "C:\\Users\\rcprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\obj\\",
+        "projectPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\MonitoramentoTarefas.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\MonitoramentoTarefas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rcprado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj": {
-                "projectPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj"
+              "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj": {
+                "projectPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj"
               },
-              "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj": {
-                "projectPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj"
+              "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj": {
+                "projectPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj"
               }
             }
           }
@@ -46,24 +45,39 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.19.6, )"
+              "version": "[1.21.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -89,24 +103,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj": {
+    "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj",
         "projectName": "ProjetoTarefaRepositories",
-        "projectPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj",
-        "packagesPath": "C:\\Users\\rcprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\obj\\",
+        "projectPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\ProjetoTarefaRepositories.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefaRepositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rcprado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,15 +129,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj": {
-                "projectPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj"
+              "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj": {
+                "projectPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj"
               }
             }
           }
@@ -132,17 +145,20 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -150,6 +166,10 @@
               "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
@@ -176,24 +196,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj": {
+    "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj",
         "projectName": "ProjetoTarefasDomain",
-        "projectPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj",
-        "packagesPath": "C:\\Users\\rcprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\obj\\",
+        "projectPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rcprado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -202,7 +222,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -215,11 +234,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -247,7 +261,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

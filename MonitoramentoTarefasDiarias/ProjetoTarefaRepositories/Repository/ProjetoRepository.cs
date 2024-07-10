@@ -1,38 +1,35 @@
-﻿using ProjetoTarefasDomain.Entity;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using ProjetoTarefaRepositories.Infra;
+using ProjetoTarefasDomain.Entity;
 using ProjetoTarefasDomain.Interfaces.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoTarefaRepositories.Repository
 {
-    public class ProjetoRepository : IProjetoRepository
+    public class ProjetoRepository(IServiceProvider serviceProvider) : IProjetoRepository
     {
+        private readonly DataContext _context = serviceProvider.GetService<DataContext>();
         public void ExcluirProjeto(int idProjeto)
-        {
-            throw new NotImplementedException();
+        { 
+            var projeto = GetProjetoPorId(idProjeto);
+            _context.Projetos.Remove(projeto);
+            _context.SaveChanges();
         }
 
         public IEnumerable<Projeto> GetListaProjeto(int IdUsuario)
         {
-            throw new NotImplementedException();
+            return _context.Projetos.AsNoTracking().Where(t => t.UsuarioId == IdUsuario).ToList();
         }
 
         public Projeto GetProjetoPorId(int idProjeto)
         {
-            throw new NotImplementedException();
+            return _context.Projetos.AsNoTracking().Where(t => t.Id == idProjeto).FirstOrDefault();
         }
 
-        public Task<bool> GetTarefaPendetePorIdProjeto(int idProjeto)
+        public void SalvarProjeto(Projeto projeto)
         {
-            throw new NotImplementedException();
-        }
-
-        public Projeto SalvarProjeto(Projeto projeto)
-        {
-            throw new NotImplementedException();
+            _context.Projetos.Add(projeto);
+            _context.SaveChanges();
         }
     }
 }

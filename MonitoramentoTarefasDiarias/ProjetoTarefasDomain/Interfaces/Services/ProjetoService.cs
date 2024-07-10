@@ -11,7 +11,7 @@ namespace ProjetoTarefasDomain.Interfaces.Services
     public class ProjetoService(IProjetoRepository projetoRepository) : IProjetoService
     {
         private readonly IProjetoRepository _projetoRepository = projetoRepository;
-        public ProjetoBusinessValidator ValidationsBusiness { get; }
+        public ProjetoBusinessValidator ValidationsBusiness { get; } = new ProjetoBusinessValidator();
 
         public IEnumerable<Projeto> GetListaProjeto(int IdUsuario)
         {
@@ -20,7 +20,8 @@ namespace ProjetoTarefasDomain.Interfaces.Services
 
         public async Task<Projeto> SalvarProjeto(Projeto projeto)
         {            
-           return _projetoRepository.SalvarProjeto(projeto);
+            _projetoRepository.SalvarProjeto(projeto);
+            return projeto;
         }
 
         public async Task<ValidationResult> ExcluirProjeto(int idProjeto)

@@ -1,23 +1,17 @@
 ﻿using ProjetoTarefasDomain.Enuns;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoTarefasDomain.Entity
 {
     public  class Projeto
     {
-        public Projeto(int id, string nome, string descricao, TipoProjeto tipoProjeto, int usuarioId, IEnumerable<Tarefa> tarefas)
+        public Projeto(int id, string nome, string descricao, TipoProjeto tipoProjeto, int usuarioId)
         {
             Id = id;
             Nome = nome;
             Descricao = descricao;
             TipoProjeto = tipoProjeto;
             UsuarioId = usuarioId;
-            Tarefas = tarefas;
         }
 
         [Key]
@@ -26,7 +20,7 @@ namespace ProjetoTarefasDomain.Entity
         public string Descricao { get; set; }
         public TipoProjeto TipoProjeto { get; set; }
         public int UsuarioId { get; set; } 
-        public virtual IEnumerable<Tarefa> Tarefas { get; set; }
+        public virtual IEnumerable<Tarefa> Tarefas { get; set; } = new List<Tarefa>();
 
     }
 }

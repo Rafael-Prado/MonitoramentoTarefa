@@ -10,3 +10,16 @@ C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\o
 C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.pdb
 C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ref\ProjetoTarefasDomain.dll
 C:\Users\rcprado\source\repos\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.csproj.AssemblyReference.cache
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\bin\Debug\net8.0\ProjetoTarefasDomain.deps.json
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\bin\Debug\net8.0\ProjetoTarefasDomain.dll
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\bin\Debug\net8.0\ProjetoTarefasDomain.pdb
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.csproj.AssemblyReference.cache
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.AssemblyInfoInputs.cache
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.AssemblyInfo.cs
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.sourcelink.json
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.dll
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\refint\ProjetoTarefasDomain.dll
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ProjetoTarefasDomain.pdb
+C:\Users\rafae\source\repos\MonitoramentoTarefa\MonitoramentoTarefasDiarias\ProjetoTarefasDomain\obj\Debug\net8.0\ref\ProjetoTarefasDomain.dll

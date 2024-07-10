@@ -3,29 +3,23 @@ using ProjetoTarefasDomain.Entity;
 using ProjetoTarefasDomain.Interfaces.Repository;
 using ProjetoTarefasDomain.Interfaces.Services.Interfaces;
 using ProjetoTarefasDomain.Validator;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoTarefasDomain.Interfaces.Services
 {
     public class TarefaService : ITarefaService
     {
         private readonly ITarefaRepository _tarefaRepository;
-        private readonly IProjetoRepository _projetoRepository;
 
-        public TarefaBusinessValidator Validations { get; }
-        public TarefaService(ITarefaRepository tarefaRepository, IProjetoRepository projetoRepository)
+        public TarefaBusinessValidator Validations { get; } = new TarefaBusinessValidator();
+        public TarefaService(ITarefaRepository tarefaRepository)
         {
             _tarefaRepository = tarefaRepository;
-            _projetoRepository = projetoRepository;
         }
 
-        public Task<ValidationResult> AddComentario(int idTarefa, Comentario comentario)
+        public async Task<ValidationResult> AddComentario(int idTarefa, Comentario comentario)
         {
-            throw new NotImplementedException();
+            _tarefaRepository.AddComentario(comentario);
+            return new ValidationResult();
         }
 
         public async Task<ValidationResult> EditarTarefa(Tarefa tarefa)
@@ -37,14 +31,15 @@ namespace ProjetoTarefasDomain.Interfaces.Services
             return resultBusinessValidator;
         }
 
-        public Task<ValidationResult> ExcluirTarefa(object idProjeto)
+        public async Task<ValidationResult> ExcluirTarefa(int idTarefa)
         {
-            throw new NotImplementedException();
+            _tarefaRepository.ExcluirTarefa(idTarefa);
+            return new ValidationResult();
         }
 
         public Task<IEnumerable<Tarefa>> GetListaTarefaIdProjeto(int IdProjeto)
         {
-            throw new NotImplementedException();
+            return _tarefaRepository.GetTarefasPorIdProjeto(IdProjeto);
         }
 
         public async Task<ValidationResult> SalvarTarefa(Tarefa tarefa)
@@ -56,6 +51,17 @@ namespace ProjetoTarefasDomain.Interfaces.Services
                 return resultBusinessValidator;
             _tarefaRepository.SalvarTarefa(tarefa);
             return resultBusinessValidator;
+
+        }
+
+        public double GetMediaTarefa(int idUsuario, DateTime dtInicio, DateTime dtFim)
+        {
+            var tarefas = _tarefaRepository.GetMediaTarefa(idUsuario);
+            var tarefaNoPeriodo = tarefas
+            .Where(c => c.DataVencimento >= dtInicio && c.DataVencimento <= dtFim)
+            .ToList();
+            int diasNoPeriodo = (dtFim - dtInicio).Days + 1;
+            return (double)tarefaNoPeriodo.Count / diasNoPeriodo;
 
         }
     }

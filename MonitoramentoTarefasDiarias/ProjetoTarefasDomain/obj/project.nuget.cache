@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "CB9/12LPDvuho+ZRwui9BLE76QfdINAHdHvuulpWCEk/y9AcIf52tY0No2TyluG9e9AX7AHqYF+ixyiNA5A1sw==",
+  "dgSpecHash": "pDrE3iIqlfHqhsW6w3V4czH6M4Oo+xgXCGHP34UDrHSoBM87h5Jsp+kv+ZIfayUNLQKS3qgTd4XPK4WQ993XCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rcprado\\source\\repos\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj",
+  "projectFilePath": "C:\\Users\\rafae\\source\\repos\\MonitoramentoTarefa\\MonitoramentoTarefasDiarias\\ProjetoTarefasDomain\\ProjetoTarefasDomain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rcprado\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
-    "C:\\Users\\rcprado\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
-    "C:\\Users\\rcprado\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "C:\\Users\\rcprado\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\rafae\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

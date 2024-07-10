@@ -17,8 +17,7 @@ namespace MonitoramentoTest.EntityFact
                  "Teste Projeto",
                 "Projeto muito bacana de TI quero participar",
                  ProjetoTarefasDomain.Enuns.TipoProjeto.Tecnologia,
-                 1,
-                 new List<Tarefa>()
+                 1
                 );
         }
     }

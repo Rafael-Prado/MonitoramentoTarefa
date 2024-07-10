@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoTarefaRepositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dd21f59066c7a1ea6428f6604fd58899da23c6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoTarefaRepositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoTarefaRepositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
