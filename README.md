@@ -12,6 +12,21 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 🔧 Instalação
 Rodar o comando 
-docker build . -t monitoramento1ç
+docker build . -t monitoramento1
 para subir uma imagem com a aplicação de monitoramento.
+
+docker build . -t monitoramento1
+
+## 🖇️ Colaborando
+#  Peguntas de refinamento
+A exclusão vai ser lógica ou total,
+Não retornar um erro ao remover o projeto, retornar uma mensagem de informação.
+Adicionar mais validações no cadastro de tarefa e de Projeto. EX. nomes requiridos.
+
+# Melhorias
+Melhoria a arquitetura, separaria a leitura da escrita CQRS.
+Colocaria o padrão Command.
+Trabalharia com banco NSQL  para quardar os eventos de mudança.
+
+
 
